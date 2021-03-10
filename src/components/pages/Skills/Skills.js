@@ -10,4 +10,4 @@ class Skills extends Component {
     }
 }
 
-export default Skills
+export default Skills;

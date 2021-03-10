@@ -18,6 +18,8 @@
   max-width: 1500px;
 }
 
+/* .logo { background : url(../../../public/images/EM-logo.jpg); } */
+
 .navbar-logo {
   color: #fff;
   justify-self: start;
