@@ -5,33 +5,33 @@ import './Cards.css';
 function Cards(props) {
     return (
         <div className="cards">
-            <h1> Check out these epic skills!</h1>
+            <h1> Projects </h1>
             <div classname="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__item">
                         <CardItem 
-                        src="images/MERN.jpg"
+                        src="images/O-Marche.jpg"
                         text="View Eric's skills"
-                        label="Cards"
-                        path="/projects.js"
-                        />
-                         <CardItem 
-                        src="images/NodeExpress"
-                        text=""
-                        label="Cards"
+                        label="O-Marche"
                         path="/projects"
                         />
                          <CardItem 
-                        src="images/React.jpg"
+                        src="images/ComplimentMyClothes.jpg"
                         text=""
-                        label="Cards"
+                        label="Compliment"
+                        path="/projects"
+                        />
+                         <CardItem 
+                        src="images/Blackjack.jpg"
+                        text="Blackjack game made with Javascript, HTML, CSS"
+                        label="Blackjack"
                         path="/projects"
                         />
                     </ul>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Cards;
