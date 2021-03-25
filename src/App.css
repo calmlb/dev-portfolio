@@ -28,7 +28,7 @@
 }
 
 .projects {
-  background-image: url('./assets/images/projectbg.jpeg');
+  background-image: url=("");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 }
 
 .skills {
-  background-image: url('./assets/images/projectbg.jpeg');
+  background-image: url('./assets/images/devskills.png');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;

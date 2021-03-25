@@ -6,19 +6,28 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container' >
-            <video src="/videos/video-2.mp4" autoPlay loop muted />
+            {<img src="/images/connected2.jpg" alt="" className="background"/> }
             <h1>Eric Mathias</h1>
-            <p>I’m a full-stack developer building web 
-                applications that support compassionate missons and directives of companies worldwide.</p>
+            <p>Full-stack developer building web 
+                applications that support compassionate missions and directives of companies worldwide.</p>
             <div classname="hero-btns">
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--medium'> 
-                    Resume <i classname='far fa-play-circle' />
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--medium'>
+                    <div classname="Resume">
+                    <img src="/images/resumeIcon.png" className="resume" to="https://drive.google.com/file/d/1FOC_Ug4Xd9TI5TEqZ8K-kIoAPP2bPQOW/view?usp=sharing" alt=""></img>
+                </div>
+                Resume <i classname='far fa-play-circle' />
                 </Button>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--medium'>
-                    LinkedIn <i classname='far fa-play-circle' />
+                    <div classname="linkedin">
+                    <img src="/images/linkedInLogo.png" className="linkedInIcon" to="https://www.linkedin.com/in/ericgmathias/" alt=""></img>
+                </div>
+                <i classname='far fa-play-circle' />
                 </Button>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--medium'>
-                    GitHub <i classname='far fa-play-circle' />
+                   <div classname="github">
+                    <img src="/images/Octocat.png" className="githubIcon" to="https://github.com/calmlb" alt=""></img>
+                </div> 
+                <i classname='far fa-play-circle' />
                 </Button>
             </div>
         </div>

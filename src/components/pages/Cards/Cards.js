@@ -11,19 +11,19 @@ function Cards(props) {
                     <ul className="cards__item">
                         <CardItem 
                         src="images/O-Marche.jpg"
-                        text="View Eric's skills"
+                        text="Tech used: MERN, API, HTML,  CSS"
                         label="O-Marche"
                         path="/projects"
                         />
                          <CardItem 
                         src="images/ComplimentMyClothes.jpg"
-                        text=""
+                        text="Tech used: Python, Django, HTML, CSS"
                         label="Compliment"
                         path="/projects"
                         />
                          <CardItem 
                         src="images/Blackjack.jpg"
-                        text="Blackjack game made with Javascript, HTML, CSS"
+                        text="Blackjack: using JS, HTML, CSS"
                         label="Blackjack"
                         path="/projects"
                         />

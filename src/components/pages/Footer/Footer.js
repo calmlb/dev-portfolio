@@ -6,7 +6,7 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer">
                 <p className="footer-heading">
-                    Made with React, Node.js, and Express.js. All rights reserved. Eric Mathias 2021.
+                    Made with React, Node, and Express. All rights reserved. Eric Mathias 2021.
                 </p> 
             </section>
             <div className="footer-links">
