@@ -5,7 +5,7 @@ import devskills from '../../../assets/images/devskills.png'
 function Skills () {
         return (
                 <div className='skills-container'>
-                    <h1>Dev Skills</h1>
+                    <h1>Eric's Developer Skills</h1>
                     <div>
                     <img src={devskills} alt="skills" className="skillspic" />
                     </div>

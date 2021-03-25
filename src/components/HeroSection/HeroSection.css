@@ -63,6 +63,11 @@ img {
   margin-left: 4px;
 }
 
+.githubIcon {
+  height: 40px;
+  width: 40px;
+}
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
@@ -85,9 +90,9 @@ img {
     text-decoration: none;
   }
 
-  .btn {
+  .btns {
     width: 100%;
-    margin: 5px;
+    margin: px;
   }
 }
 

@@ -35,7 +35,10 @@
 
 .fa-typo3 {
   margin-left: 0.5rem;
+  width: 80px;
+  height: 50px;
   font-size: 1.8rem;
+  border-radius: 2px;
 }
 
 .nav-menu {
@@ -109,12 +112,13 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    border: 2px;
   }
 
   .nav-links:hover {
     background-color: #fff;
     color: #242424;
-    border-radius: 0;
+
   }
 
   .navbar-logo {
