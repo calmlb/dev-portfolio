@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
-// import { Button } from '../Button/Button';
+import { Button } from '../Button/Button';
 import logo from '../../assets/images/EM-logo.jpg';
 
 function NavBar() {
@@ -30,7 +30,7 @@ function NavBar() {
           <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                   <img src={logo} className='fa-typo3'/>
+                   <img src={logo} alt="logo" className='fa-typo3'/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -57,7 +57,7 @@ function NavBar() {
                         </Link>
                     </li>
                 </ul>
-                {/* {button && <Button buttonStyle='btn--outline'>Contact</Button>} */}
+                {button && <Button buttonStyle='btn--outline'>Contact</Button>}
             </div>
           </nav>
         </>
