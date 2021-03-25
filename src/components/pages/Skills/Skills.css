@@ -7,8 +7,20 @@
     align-self: center;
 }
 
-.skills {
-    height: 100%;
-    width: 100%;
+.skills-container > h1 {
+    color: black;
+    font-size: 26px;
+}
+
+.skillspic {
+    height: auto;
+    width: 150%;
+    justify-content: left;
+}
+
+.skills-heading {
+    height: 40px;
+    width: 40px;
+    color: black;
 }
 
