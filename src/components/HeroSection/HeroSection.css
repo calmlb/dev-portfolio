@@ -52,11 +52,20 @@ img {
 }
 
 .hero-btns {
+  margin-left: 150px;
   margin-top: 32px;
 }
 
+.btns {
+  border-color: white;
+  border-radius: 4px;
+  margin: 4px;
+}
+
 .hero-btns .btn {
-  margin: 6px;
+  margin: 4px;
+  padding: 4px;
+  align-items: right;
 }
 
 .fa-play-circle {
@@ -73,6 +82,17 @@ img {
     font-size: 70px;
     margin-top: -150px;
   }
+
+  .hero-btns {
+    margin: 4px;
+    align-items: right;
+  }
+
+  .btns {
+    margin: 4px;
+    align-items: right;
+    justify-content: right;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -83,6 +103,7 @@ img {
 
   .hero-container > p {
     font-size: 30px;
+    justify-content: center;
   }
 
   .btn-mobile {
@@ -92,7 +113,7 @@ img {
 
   .btns {
     width: 100%;
-    margin: px;
+    margin: 5px;
   }
 }
 

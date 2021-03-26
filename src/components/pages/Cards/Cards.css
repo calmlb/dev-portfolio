@@ -3,11 +3,33 @@
   background: #fff;
 }
 
+.background {
+  background-size: contain;
+  width: auto;
+  height: auto;
+  position: fixed;
+  z-index: -1;
+}
+
+.projectBackground {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain
+}
+
+
 h1 {
   text-align: center;
 }
 
 .cards__container {
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;

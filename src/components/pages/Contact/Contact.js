@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
+import React  from 'react'
+import './Contact.css'
+import devskills from '../../../assets/images/devskills1.png'
 
-class Contact extends Component {
-    render() {
+function Contact () {
         return (
-            <div>
-                
-            </div>
+                <div className='contact-container'>
+                    <img src="/images/connected2.jpg" alt="" className="background"/> 
+                        <h1 className="contact">Contact Me</h1>
+               </div>
         )
     }
-}
 
-export default Contact
-
+export default Contact;

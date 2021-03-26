@@ -1,26 +1,48 @@
 .skills-container {
-    background-color: white;
-    padding: 3rem 0 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+        object-fit: contain
 }
 
 .skills-container > h1 {
-    color: black;
-    font-size: 26px;
+    color: #fff;
+    font-size: 100px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-bottom: 1%;
+    justify-content: auto;
+}
+
+.background {
+    background-size: contain;
+    width: auto;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+  }
+
+.ericskills {
+    margin-left: 35%;
+    font-size: 55px;
+     color: #fff;
 }
 
 .skillspic {
     height: auto;
     width: 100%;
     justify-content: left;
+    margin-left: 19%;
 }
 
-.skills-heading {
+/* .skills-heading {
     height: 40px;
     width: 40px;
     color: black;
-}
+} */
 
