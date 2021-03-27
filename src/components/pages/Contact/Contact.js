@@ -1,6 +1,5 @@
 import React  from 'react'
 import './Contact.css'
-import devskills from '../../../assets/images/devskills1.png'
 
 function Contact () {
         return (

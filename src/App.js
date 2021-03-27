@@ -6,7 +6,7 @@ import MainPage from '../src/components/pages/MainPage/MainPage';
 import Skills from './components/pages/Skills/Skills';
 import Cards from './components/pages/Cards/Cards';
 import Contact from '../src/components/pages/Contact/Contact';
-
+import Footer from '../src/components/pages/Footer/Footer';
 function App() {
   return (
     <div className='App'>
@@ -18,6 +18,7 @@ function App() {
           <Route path='/projects/' exact component={Cards} />
           <Route path='/contact/' exact component={Contact} />
         </Switch>
+        <Footer/>
       </Router>
     </div>
   )
