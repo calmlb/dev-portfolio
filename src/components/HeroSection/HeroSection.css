@@ -66,6 +66,16 @@ img {
   margin-right: auto;
 }
 
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 40px;
+  overflow: hidden;
+}
+
 .fa-play-circle {
   margin-left: 4px;
 }
