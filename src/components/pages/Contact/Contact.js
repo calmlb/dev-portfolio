@@ -22,7 +22,7 @@ const ContactForm = () => {
     }
     const sendEmail = () => {
       Axios.post(
-        'https://us-central1-your-app-name.cloudfunctions.net/submit',
+        'https://us-central1-eric-s-dev-portfol.cloudfunctions.net/submit',
         formData
       )
         .then(res => {
@@ -41,34 +41,33 @@ const ContactForm = () => {
     return (
       <>
        <div className='contact-container'>
-                    <img src="/images/connected2.jpg" alt="" className="background"/> 
-                        <h1 className="contact">Contact Me</h1>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Name"
-            onChange={updateInput}
-            value={formData.name || ''}
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            onChange={updateInput}
-            value={formData.email || ''}
-          />
-          <textarea
-            type="text"
-            name="message"
-            placeholder="Message"
-            onChange={updateInput}
-            value={formData.message || ''}
-          ></textarea>
-          <button type="submit">Submit</button>
-        </form>
+            <img src="/images/connected2.jpg" alt="" className="background"/> 
+            <h1 className="contact">Contact Me</h1>
+                <form onSubmit={handleSubmit}>
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    onChange={updateInput}
+                    value={formData.name || ''}
+                />
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    onChange={updateInput}
+                    value={formData.email || ''}
+                />
+                <textarea
+                    type="text"
+                    name="message"
+                    placeholder="Message"
+                    onChange={updateInput}
+                    value={formData.message || ''}
+                ></textarea>
+                <button type="submit">Submit</button>
+                </form>
         </div>
-
       </>
     )
   }
