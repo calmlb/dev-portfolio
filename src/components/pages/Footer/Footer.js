@@ -6,7 +6,7 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer">
                 <p className="footer-heading">
-                    Made with React, Node.js, HTML, CSS. All rights reserved. Eric Mathias 2021.
+                    Made with React, Node.js, Firebase, Nodemailer, Axios, Cors, HTML, CSS. All rights reserved. Eric Mathias 2021.
                     <div className="hero-btns">
                     <div className="socialbtns">
                         <button className='social' >

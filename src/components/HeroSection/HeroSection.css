@@ -47,8 +47,7 @@ img {
   text-align: right;
   color: #fff;
   font-size: 26px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font: Helvetica, Arial, sans-serif;
 }
 
 .hero-btns {
