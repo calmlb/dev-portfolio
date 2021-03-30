@@ -17,23 +17,24 @@
   }
 
 .contact-container > h1 {
-  margin-top: 5%;
-  margin-left: 28%;
+  margin-top: -42%;
+  margin-left: 50%;
   margin-bottom: -8%;
   color: #fff;
   font-size: 55px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  letter-spacing: 2px;
+  // letter-spacing: 2px;
   letter-spacing: 10px;
 }
 
 form {
   display: table;
-  margin: 150px auto;
+  margin-top: -14%;
+  // margin: 100px auto;
 
   input,
   textarea {
-    margin-left: 62%;
+    margin-left: 110%;
     font: 18px Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     display: block;
@@ -74,7 +75,7 @@ form {
     color: #fff;
     padding: 20px;
     width: 100%;
-    margin-left: 62%;
+    margin-left: 110%;
     text-transform: uppercase;
     letter-spacing: 5px;
 
